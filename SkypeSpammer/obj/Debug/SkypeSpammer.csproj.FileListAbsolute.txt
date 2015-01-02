@@ -1,0 +1,9 @@
+c:\users\ryan\documents\visual studio 2013\Projects\SkypeSpammer\SkypeSpammer\bin\Debug\SkypeSpammer.exe.config
+c:\users\ryan\documents\visual studio 2013\Projects\SkypeSpammer\SkypeSpammer\bin\Debug\SkypeSpammer.exe
+c:\users\ryan\documents\visual studio 2013\Projects\SkypeSpammer\SkypeSpammer\bin\Debug\SkypeSpammer.pdb
+c:\users\ryan\documents\visual studio 2013\Projects\SkypeSpammer\SkypeSpammer\obj\Debug\SkypeSpammer.csprojResolveAssemblyReference.cache
+c:\users\ryan\documents\visual studio 2013\Projects\SkypeSpammer\SkypeSpammer\obj\Debug\SkypeSpammer.Properties.Resources.resources
+c:\users\ryan\documents\visual studio 2013\Projects\SkypeSpammer\SkypeSpammer\obj\Debug\SkypeSpammer.csproj.GenerateResource.Cache
+c:\users\ryan\documents\visual studio 2013\Projects\SkypeSpammer\SkypeSpammer\obj\Debug\SkypeSpammer.exe
+c:\users\ryan\documents\visual studio 2013\Projects\SkypeSpammer\SkypeSpammer\obj\Debug\SkypeSpammer.pdb
+c:\users\ryan\documents\visual studio 2013\Projects\SkypeSpammer\SkypeSpammer\obj\Debug\SkypeSpammer.SkypeSpammer.resources
