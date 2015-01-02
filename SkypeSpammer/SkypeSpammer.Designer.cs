@@ -36,11 +36,15 @@
             this.messageLbl = new System.Windows.Forms.Label();
             this.userName = new System.Windows.Forms.Label();
             this.userBox = new System.Windows.Forms.TextBox();
+            this.msgGroupCheck = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.skypeSpamGroup.SuspendLayout();
             this.SuspendLayout();
             // 
             // skypeSpamGroup
             // 
+            this.skypeSpamGroup.Controls.Add(this.label1);
+            this.skypeSpamGroup.Controls.Add(this.msgGroupCheck);
             this.skypeSpamGroup.Controls.Add(this.spamBtn);
             this.skypeSpamGroup.Controls.Add(this.iterBox);
             this.skypeSpamGroup.Controls.Add(this.iterlbl);
@@ -50,7 +54,7 @@
             this.skypeSpamGroup.Controls.Add(this.userBox);
             this.skypeSpamGroup.Location = new System.Drawing.Point(13, 13);
             this.skypeSpamGroup.Name = "skypeSpamGroup";
-            this.skypeSpamGroup.Size = new System.Drawing.Size(416, 236);
+            this.skypeSpamGroup.Size = new System.Drawing.Size(416, 277);
             this.skypeSpamGroup.TabIndex = 0;
             this.skypeSpamGroup.TabStop = false;
             this.skypeSpamGroup.Text = "Skype Spammer";
@@ -114,11 +118,29 @@
             this.userBox.Size = new System.Drawing.Size(247, 20);
             this.userBox.TabIndex = 0;
             // 
+            // msgGroupCheck
+            // 
+            this.msgGroupCheck.AutoSize = true;
+            this.msgGroupCheck.Location = new System.Drawing.Point(300, 254);
+            this.msgGroupCheck.Name = "msgGroupCheck";
+            this.msgGroupCheck.Size = new System.Drawing.Size(107, 17);
+            this.msgGroupCheck.TabIndex = 7;
+            this.msgGroupCheck.Text = "Message Group?";
+            this.msgGroupCheck.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(21, 240);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.TabIndex = 8;
+            // 
             // SkypeSpammer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(441, 261);
+            this.ClientSize = new System.Drawing.Size(441, 302);
             this.Controls.Add(this.skypeSpamGroup);
             this.Name = "SkypeSpammer";
             this.Text = "Skype Spammer";
@@ -139,6 +161,8 @@
         private System.Windows.Forms.TextBox iterBox;
         private System.Windows.Forms.Label iterlbl;
         private System.Windows.Forms.Button spamBtn;
+        private System.Windows.Forms.CheckBox msgGroupCheck;
+        private System.Windows.Forms.Label label1;
     }
 }
 

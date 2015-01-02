@@ -21,5 +21,7 @@ namespace SkypeSpammer
             skype.SendMessage(User, Message);
         }
 
+  
+
     }
 }

@@ -31,6 +31,12 @@ namespace SkypeSpammer
 
         private void spamBtn_Click(object sender, EventArgs e)
         {
+            if (this.msgBox.Text == "")
+            {
+                MessageBox.Show("Message cannot be empty!");
+                return;
+            }
+
             this.Message = this.msgBox.Text;
 
             try
@@ -39,10 +45,18 @@ namespace SkypeSpammer
             }
             catch (FormatException ex)
             {
-                Console.WriteLine(ex.Message); // Write the stack trace to the console.
+                MessageBox.Show("Iteration must be a number!");
+                return;
+            }
+
+            if (this.userBox.Text == "")
+            {
+                MessageBox.Show("Username cannot be empty!");
+                return;
             }
 
             this.User = this.userBox.Text;
+            
             Thread spamThread = new Thread(new ThreadStart(SpamTask));
 
             spamThread.Start();
